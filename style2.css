@@ -43,3 +43,37 @@ h2{
     margin-left: 35%;
     height:600px;
 }
+
+@media screen and (max-width: 376px) {
+
+    body{
+        width: 100%;
+    }
+
+    #top .logo{
+        margin-top: 10%;
+        margin-left: 15%;
+        width: 250px;
+    }
+
+    h1{
+        font-size: 15px;
+        margin-top: 10%;
+    }
+
+     #top .rebus{
+         height: 350px;
+         width: 350px;
+         margin-top: -15%;
+         margin-left: 5%;
+     }
+
+     h2{
+         font-size: 15px;
+     }
+
+     #mid img{
+         height: 300px;
+         margin-left: 23%;
+     }
+}
