@@ -7,6 +7,7 @@ body{
     height: 100vh;
     background-image: url('image/fond rébus.png');
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #top .logo{
@@ -58,7 +59,7 @@ h2{
 
     h1{
         font-size: 15px;
-        margin-top: 10%;
+        margin: 0 auto;
     }
 
      #top .rebus{
@@ -76,4 +77,39 @@ h2{
          height: 300px;
          margin-left: 23%;
      }
+}
+
+@media screen and (max-width: 415px){
+    body{
+        width: 100%;
+    }
+
+    #top .logo{
+        margin-top: 10%;
+        margin-left: 15%;
+        width: 250px;
+        margin-bottom: 10%;
+    }
+
+    h1{
+        font-size: 15px;
+        margin: 0 auto;
+    }
+
+     #top .rebus{
+         height: 350px;
+         width: 350px;
+         margin-top: -15%;
+         margin-left: 5%;
+     }
+
+     h2{
+         font-size: 15px;
+     }
+
+     #mid img{
+         height: 300px;
+         margin-left: 23%;
+     }
+    
 }
