@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    background-image: url('image/fond rébus.png');
+    background-size: cover;
+}
+
+#top .logo{
+    margin-left: 40%;
+    margin-top: 80px;
+    width: 350px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: white;
+}
+
+#top .rebus{
+    width: 1200px;
+    height: 1200px;
+    margin-top: -20%;
+    margin-left: 10%;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: -20%;
+    color: white;
+}
+
+#mid img{
+    margin-left: 35%;
+    height:600px;
+}
